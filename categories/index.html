@@ -51,7 +51,6 @@
 </script>
 
   <meta name="description" content="念念不忘 必有回响">
-<meta name="keywords" content="关键字">
 <meta property="og:type" content="website">
 <meta property="og:title" content="分类">
 <meta property="og:url" content="https:&#x2F;&#x2F;socool.design&#x2F;categories&#x2F;index.html">
@@ -263,6 +262,7 @@
 
           </div>
           
+    <div class="comments" id="comments"></div>
 
         </div>
           
@@ -292,9 +292,9 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <img class="site-author-image" itemprop="image" alt="Renny Yang"
+  <img class="site-author-image" itemprop="image" alt="Renny"
     src="/uploads/%E5%A4%B4%E5%83%8F.png">
-  <p class="site-author-name" itemprop="name">Renny Yang</p>
+  <p class="site-author-name" itemprop="name">Renny</p>
   <div class="site-description" itemprop="description">念念不忘 必有回响</div>
 </div>
 <div class="site-state-wrap motion-element">
@@ -342,9 +342,9 @@
   &copy; 
   <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+    <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Renny Yang</span>
+  <span class="author" itemprop="copyrightHolder">Renny</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动
   </div>
@@ -409,6 +409,33 @@
   
 
   
+
+
+<script>
+NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(item => {
+    return GUEST.includes(item);
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'eJGyCX36kB43y72AJi6CcmaD-gzGzoHsz',
+    appKey: 'mIWIBWKjmqfOlfTvG5WyK9Qg',
+    placeholder: "Just go go",
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn',
+    path: location.pathname,
+    recordIP: false,
+    serverURLs: ''
+  });
+}, window.Valine);
+</script>
 
 </body>
 </html>
