@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>markdown语法</title>
-    <url>/2020/07/17/markdown/</url>
+    <url>/2020/07/17/markdown%E8%AF%AD%E6%B3%95/</url>
     <content><![CDATA[<h1 id="标题一"><a href="#标题一" class="headerlink" title="标题一"></a>标题一</h1><h2 id="标题二"><a href="#标题二" class="headerlink" title="标题二"></a>标题二</h2><h3 id="标题三"><a href="#标题三" class="headerlink" title="标题三"></a>标题三</h3><h4 id="标题四"><a href="#标题四" class="headerlink" title="标题四"></a>标题四</h4><ol>
 <li>的说法是</li>
 <li>啊手动阀</li>
@@ -10,7 +10,11 @@
 <ul>
 <li>地方</li>
 <li>第三方</li>
-<li>设定分<br> 第三方<br> 设定分<br> 胜多负少</li>
+<li>设定分<ul>
+<li>第三方</li>
+<li>的分公司的</li>
+</ul>
+</li>
 </ul>
 <a id="more"></a>]]></content>
       <categories>
@@ -33,8 +37,8 @@
         <category>剪辑</category>
       </categories>
       <tags>
-        <tag>PR</tag>
         <tag>剪辑</tag>
+        <tag>PR</tag>
       </tags>
   </entry>
   <entry>
@@ -56,8 +60,8 @@
         <category>剪辑</category>
       </categories>
       <tags>
-        <tag>PR</tag>
         <tag>剪辑</tag>
+        <tag>PR</tag>
       </tags>
   </entry>
   <entry>
